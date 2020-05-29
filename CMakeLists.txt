@@ -53,6 +53,7 @@ ENDIF()
 
 PROJECT( Assimp VERSION 5.0.1 )
 
+add_compile_definitions("_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING")
 # All supported options ###############################################
 
 OPTION( BUILD_SHARED_LIBS
